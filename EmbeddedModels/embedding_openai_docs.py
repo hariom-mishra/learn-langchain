@@ -1,6 +1,10 @@
 from langchain_openai import OpenAIEmbeddings
 from dotenv import load_dotenv
 
+'''
+this file is used to generate embeddings for the given document
+'''
+
 load_dotenv()
 
 document = [

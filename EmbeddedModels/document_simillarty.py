@@ -3,6 +3,10 @@ from dotenv import load_dotenv
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
+'''
+this file is used to find the similarity between the query and the document
+'''
+
 load_dotenv()
 
 embedding = OpenAIEmbeddings(model='text-embedding-3-large', dimensions=300)

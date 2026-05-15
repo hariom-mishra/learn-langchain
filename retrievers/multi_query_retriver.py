@@ -4,6 +4,11 @@ from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI
 from langchain.retrievers.multi_query import MultiQueryRetriever
 
+'''
+this file is used to retrieve the similar documents from the vector store
+using multi query retriever
+'''
+
 # Relevant health & wellness documents
 all_docs = [
     Document(page_content="Regular walking boosts heart health and can reduce symptoms of depression.", metadata={"source": "H1"}),
